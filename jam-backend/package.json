@@ -1,0 +1,25 @@
+{
+  "name": "jam-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node --transpile-only src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyung-min-sun/jam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyung-min-sun/jam/issues"
+  },
+  "homepage": "https://github.com/kyung-min-sun/jam#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-ws": "^5.0.2",
+    "ts-node": "^10.9.1"
+  }
+}
